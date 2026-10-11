@@ -72,3 +72,6 @@ document.addEventListener("DOMContentLoaded", function () {
     yearElement.textContent = new Date().getFullYear();
   }
 });
+if (window.location.pathname === "/index.html") {
+        window.location.replace("/");
+    }
